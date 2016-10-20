@@ -1,16 +1,11 @@
 {
   "name": "react-isomorph",
   "version": "0.0.0",
-  "description": "Isomorphic React Example",
   "main": "app.js",
   "scripts": {
-    "watch": "watchify app.js -o public/js/bundle.js -v",
-    "browserify": "browserify app.js | uglifyjs > public/js/bundle.js",
-    "build": "npm run browserify ",
-    "start": "npm install"
+    "start": "node server"
   },
-  "author": "Ken Wheeler",
-  "license": "MIT",
+  "author": "Agradeep K",
   "dependencies": {
     "express": "~4.9.7",
     "express-handlebars": "~1.1.0",
